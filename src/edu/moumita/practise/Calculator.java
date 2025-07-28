@@ -10,7 +10,8 @@ public class Calculator {
         System.out.println("Enter the second number : ");
         int num2 = scanner.nextInt();
 
-        System.out.println("The result is : " + (num1 + num2));
-        System.out.println("The result is : " + (num1 - num2));
+        System.out.println("The sum of two numbers is : " + (num1 + num2));
+        System.out.println("The subtraction of two numbers  is : " + (num1 - num2));
+        System.out.println("The multiplication of two numbers  is : " + (num1 * num2));
     }
 }
