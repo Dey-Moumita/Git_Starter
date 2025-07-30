@@ -9,11 +9,14 @@ public class CheckNumberPositiveORNegative {
         System.out.println("Enter a number to check if it is positive or negative:");
         long number = scanner.nextLong();
 
-        if(number >= 0){
+        if(number > 0){
             System.out.println("The number is positive");
         }
-        else{
+        else if(number<0){
             System.out.println(("The number is negative"));
+        }
+        else{
+            System.out.println("The number is zero");
         }
 
     }
