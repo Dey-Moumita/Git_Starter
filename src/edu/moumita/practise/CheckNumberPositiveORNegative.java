@@ -7,7 +7,7 @@ public class CheckNumberPositiveORNegative {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a number to check if it is positive or negative:");
-        int number = scanner.nextInt();
+        long number = scanner.nextLong();
 
         if(number >= 0){
             System.out.println("The number is positive");
