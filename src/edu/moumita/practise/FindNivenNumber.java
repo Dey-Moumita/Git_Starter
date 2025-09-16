@@ -15,7 +15,9 @@ public class FindNivenNumber {
             num = num/10;
             sum = sum + digit;
         }
-        if(copy%sum==0){
+        //sum % copy means the sum of digits by the number itself and check the remainder.
+        //This is wrong for Niven numbers, because the definition is about the number being divisible by the sum of its digits, not the other way around.
+        if(copy%sum==0){//divide the number by the sum of its digits and check the remainder.
             System.out.println("Niven Number");
         }else{
             System.out.println("Not a Niven Number");
