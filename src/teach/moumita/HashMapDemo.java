@@ -19,8 +19,8 @@ public class HashMapDemo {
             System.out.println(entry.getKey()+"->"+entry.getValue());
         }
 
-//        Set set = hashMap.entrySet();
-//        System.out.println(set);
+        Set set = hashMap.entrySet();
+        System.out.println(set);
 //
 //        Iterator iterator = set.iterator();
 //        while(iterator.hasNext())
