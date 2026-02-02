@@ -18,9 +18,9 @@ public class DeletingAnElementInArray {
         for(int i = index;i<size-1;i++){
             array[i] = array[i+1];
         }
+        size--;
 
-
-        for(int i = 0;i<size-1;i++){
+        for(int i = 0;i<size;i++){
             System.out.println(array[i]);
         }
     }
